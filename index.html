@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Resume</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        let resume = <div>
+            <div>
+                <h2>Shivank Bansod</h2>
+                <p>Web Developer, Student at Geekster</p>
+
+                <span><a style={{ color: "blue" }} href="https://www.linkedin.com/in/shivankb/">LinkedIn</a> <a style={{ color: "blue" }} href="https://github.com/shiv5ank">Github</a></span>
+                <hr />
+            </div>
+            <div>
+                <h3>Projects</h3>
+                <h4>Cinematic</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quae est. Dolor fuga dicta corrupti consequuntur quia ab animi quos laborum officia atque, blanditiis magnam similique tenetur odit itaque nisi?</p>
+                <hr />
+            </div>
+            <div>
+                <h4>Student at Geekster</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, inventore excepturi. Omnis ea voluptas est harum eos, quae aspernatur iure excepturi debitis accusantium unde autem asperiores consequuntur ullam numquam voluptatum?</p>
+                <hr />
+            </div>
+
+            <div>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>Testing</li>
+                    <li>API Designing</li>
+                    <li>System Design</li>
+                </ul>
+
+                <hr />
+            </div>
+
+            <div>
+                <h3>Hobbies</h3>
+                <ol>
+                    <li>Table Tennis</li>
+                    <li>Reading Books</li>
+                    <li>Biography</li>
+                    <li>Teaching</li></ol>
+            </div>
+        </div>
+
+
+        ReactDOM.render(resume, document.getElementById('root'))
+
+
+    </script>
+</body>
+
+</html>
